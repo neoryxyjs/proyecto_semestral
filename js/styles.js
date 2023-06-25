@@ -204,3 +204,6 @@ sizeButtons.forEach(button => {
     button.classList.add('active');
   });
 });
+
+
+
