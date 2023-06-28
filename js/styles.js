@@ -117,8 +117,7 @@ $('#subscriptionForm').submit(function (event) {
     return;
   }
 
-  // Envía los datos del formulario a través de una solicitud AJAX o realiza cualquier otra acción necesaria
-  // ...
+ 
 
   // Restablece el formulario
   $('#subscriptionForm')[0].reset();
@@ -194,16 +193,8 @@ function initMap() {
 google.maps.event.addDomListener(window, 'load', initMap);
 
 
-const sizeButtons = document.querySelectorAll('.size-button');
 
-sizeButtons.forEach(button => {
-  button.addEventListener('click', () => {
-    sizeButtons.forEach(btn => {
-      btn.classList.remove('active');
-    });
-    button.classList.add('active');
-  });
-});
+
 
 
 

@@ -141,8 +141,76 @@ p {
 
 .carousel-image {
   width: 100px;
-  height: 650px;
+  height: 600px;
 }
+
+
+.rounded-image {
+  width: 200px; 
+  height: 200px;
+  padding: 10px; 
+}
+
+
+
+#containerfotos {
+  text-align: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.photo-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.photo-container img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.photo-container img:hover {
+  transform: scale(1.1);
+}
+
+h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  color: #666;
+  line-height: 1.5;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
